@@ -202,7 +202,7 @@ async def process_patient_data(
         context = patient_data.dict(exclude={"question"})
         prompt = patient_data.question
         
-        model = LiteLLMModel(model_id="gemini/gemini-2.0-flash-lite", api_key="AIzaSyCoF7zxJhj5q9YlmLhhX7ynqM8CXaD3doQ", temperature=0.1) 
+        model = LiteLLMModel(model_id="gemini/gemini-2.0-flash-lite", api_key="", temperature=0.1) 
         agent = CodeAgent(tools=[], model=model, name="Entity extraction Agent", description="Extracts medical drug entities from text and give it as a list.")
         #The input to the agent from the user
         result = agent.run(f"You are an AI assistant specialized in the Patient Healthcare Industry with the patient information :{context} and the patients query is : {prompt}")
@@ -258,3 +258,4 @@ async def cleanup_temp_files(temp_files: List[str]):
 
 
                                                                                                                
+
