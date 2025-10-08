@@ -1,0 +1,36 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Data Processing and Validation
+pydantic==2.5.1
+pandas==2.1.4
+numpy==1.25.2
+
+# Document Processing
+PyMuPDF==1.23.19
+docx2python==2.0.2
+
+# AI and Machine Learning
+smolagents==0.3.0
+litellm==1.17.1
+
+# Chemical Processing
+pubchempy==1.0.4
+rdkit-pypi==2022.9.5
+
+# Web Interface
+streamlit==1.29.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Environment Configuration
+python-dotenv==1.0.0
+
+# Natural Language Processing
+spacy==3.7.2
+
+# Additional utilities
+typing-extensions==4.8.0

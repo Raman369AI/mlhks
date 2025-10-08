@@ -1,0 +1,2 @@
+# This file ensures the documents_uploaded directory is tracked by Git
+# while keeping the actual medical documents private
